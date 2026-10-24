@@ -1,0 +1,11 @@
+{
+  "good": {
+    "challenge": { "did": "did:lax:agent1", "listingId": "lax-ext-aaa", "nonce": "n1", "expiresAt": "2999-01-01T00:00:00Z" },
+    "signature": "sig-good",
+    "owner": "0xOwner",
+    "score": 62, "tier": "silver",
+    "intent": "hire", "priceUsdc": 25,
+    "soulMd": "# soul\nI keep my word.\n"
+  },
+  "policy": { "minTier": "bronze", "allowed": ["hire", "bid"], "maxUsdc": 100, "sessionSecret": "s3cret" }
+}
